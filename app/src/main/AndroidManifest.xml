@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeCareForPets"
+        tools:targetApi="31">
+        <activity
+            android:name=".feedbackCaregiver"
+            android:exported="false" />
+        <activity
+            android:name=".completedJobs"
+            android:exported="false" />
+        <activity
+            android:name=".profileCaregiver"
+            android:exported="false" />
+        <activity
+            android:name=".yourJobsOwner"
+            android:exported="false" />
+        <activity
+            android:name=".viewJobsCaregiver"
+            android:exported="false" />
+        <activity
+            android:name=".feedbackOwner"
+            android:exported="false" />
+        <activity
+            android:name=".yourJobs"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".mainMenuCaregiver"
+            android:exported="false" />
+        <activity
+            android:name=".addJobs"
+            android:exported="false" />
+        <activity
+            android:name=".mainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".signUpCaregiver1"
+            android:exported="false" />
+        <activity
+            android:name=".signUpCaregiver"
+            android:exported="false" />
+        <activity
+            android:name=".signUpPet2"
+            android:exported="false" />
+        <activity
+            android:name=".signUpPet"
+            android:exported="false" />
+        <activity
+            android:name=".signUpOwner2"
+            android:exported="true" />
+        <activity
+            android:name=".signUpOwner"
+            android:exported="true" />
+        <activity
+            android:name=".signUpDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".signInDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
